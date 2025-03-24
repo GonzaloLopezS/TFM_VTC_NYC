@@ -1,0 +1,27 @@
+8195055de00a28e435913bd0649ba17fff5b39aa
+9a7e462e954ce0706eb487db92d05adea84fd7df
+984830005f9d55b54ba11ed7c800f50aeaf1acf5 
+b12d56201170896508c93fb57f9a98499a7587e1 
+c14f5ef3f9de828cc1ed96e65c341aee82649168 Data
+8f43da1c037389cdcd6534c7290ab394991a9b49 Data/uber-nyc-forhire-vehicles-trip-data-2021
+e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 Data/uber-nyc-forhire-vehicles-trip-data-2021/1.complete
+6a996750352e16c126064d29ccf04f519636ba9c Data/uber-nyc-forhire-vehicles-trip-data-2021/versions
+005d23e329846b03296ff38f08de9dac0bacf8ed Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1
+a74754a799f8ce3c88a1b4700ef6eb49222e08bb Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/data_dictionary_trip_records_hvfhs.pdf
+199d27ea226c84671eaab8112baf52176bab4cc4 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/fhvhv_tripdata_2021-01.parquet
+db8929a80c26b6f3925491606ecea25b0955f9b7 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/fhvhv_tripdata_2024-01.parquet
+de1f187748fb0e074e2cdbd47f0e1f682fd6d38f Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/nyc 2021-01-01 to 2021-12-31.csv
+ecd01e0fbac807b54fcbb278a8b12556ce851b53 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zone_lookup.csv
+e9b809f6b15fa65ea0d5b9025168b2e2c089ed43 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones
+60703a7452b073826894864ee72d83c50eee0d1e Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.dbf
+b68d8514cabc051dfee7a70de5381953d4c0ac1c Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.prj
+4cc2308bd3cb2ff7c873fa6aa7a3579c585995d4 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.sbn
+4a7f387d0b2ed1a46ee775498efd5c2edf163e3f Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.sbx
+7dd33d2b6ee9e732e2998b9458781c9a4c2aa848 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.shp
+dcf6d6e6690be3569526e267207d23523e9da84c Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.shp.xml
+00fef0998adb6124d3d25cf56b428745813baa37 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/taxi_zones/taxi_zones.shx
+ac1383b8404c11e977f0fb93f5864cccb81b82a4 Data/uber-nyc-forhire-vehicles-trip-data-2021/versions/1/working_parquet_format.pdf
+f288702d2fa16d3cdf0035b15a9fcbc552cd88e7 LICENSE
+0130efd548bf7f981824b09c774ffb67b9763fea Notebooks
+605895c302b1fec2381ee726f38a6c2c53293723 Notebooks/prueba_2021.ipynb
+4be6c0676619bb5407d6c5f67f4fcff3d1dfe447 README.md
