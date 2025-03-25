@@ -1,0 +1,17 @@
+24/03/2025: 
+Lanzado en local prueba_2021.ipynb con 100K registros sobre csv fhvhv_tripdata_2021-01.csv. Pruebas OK para K-Means y Random Forest.
+Notebook en Databricks creado. Sesión Spark abierta. Prueba con .parquet 2024-03. Parece que spark no es capaz de transformar de .parquet a df
+En cambio, se realiza esta modificación en local.
+
+25/03/2025: 
+El problema estuvo que para 2024-03 el tipo de fichero era distinto. Esta vez lanzo en local fichero fhvhv_*. El kernel peta cada vez que intento lanzarlo.
+Se lanza en Databricks. Se ha creado un nuevo cluster con 2 workers y 1 nodo driver. 
+Se ha lanzado el notebook prueba_2021.ipynb con 100K registros sobre csv fhvhv_tripdata_2021-01.csv. Pruebas
+
+Para tablas de datos por tipo de vtc:
+- Para HVFHV: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_hvfhs.pdf
+- Para green taxi: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf
+- Para yellow taxi: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+Información: https://www.nyc.gov/site/tlc/businesses/for-hire-vehicles.page
+Record User Guide: https://www.nyc.gov/assets/tlc/downloads/pdf/trip_record_user_guide.pdf
