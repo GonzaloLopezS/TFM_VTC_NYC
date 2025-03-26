@@ -40,3 +40,12 @@ Opciones de titulo para el TFM:
 7. “Caracterización de los viajes de Uber y Lyft en Nueva York usando herramientas de análisis de datos”
 
 => Estudio del comportamiento de los viajes en servicios de vehículos de alquiler en Nueva York mediante técnicas de ciencia de datos
+
+27/03/2025:
+- Cargar datos de fhvhv_tripdata_2021-01.parquet y obtener 500.000 filas aleatorias.
+- Borrar fichero parquet.
+- Lanzar notebook
+- Revisar EDA y Visualización.
+- Sección 'Feature Selection' y 'Feature Engineering'
+- Tratamiento de datos (pre-procesamiento): variables categóricas, variables numéricas, variables de tipo fecha.
+- Sección 'Modelado': K-Means (y Random Forest)
