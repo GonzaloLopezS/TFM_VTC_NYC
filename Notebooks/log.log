@@ -42,10 +42,29 @@ Opciones de titulo para el TFM:
 => Estudio del comportamiento de los viajes en servicios de vehículos de alquiler en Nueva York mediante técnicas de ciencia de datos
 
 27/03/2025:
-- Cargar datos de fhvhv_tripdata_2021-01.parquet y obtener 500.000 filas aleatorias.
+- Cargar datos de fhvhv_tripdata_2021-05.parquet y obtener 500.000 filas aleatorias.
 - Borrar fichero parquet.
 - Lanzar notebook
 - Revisar EDA y Visualización.
 - Sección 'Feature Selection' y 'Feature Engineering'
 - Tratamiento de datos (pre-procesamiento): variables categóricas, variables numéricas, variables de tipo fecha.
 - Sección 'Modelado': K-Means (y Random Forest)
+
+Dadas las dimensiones de los datos y los algoritmos aplicados, los recursos locales son insuficientes. Se ha relanzado en Google Colab.
+- Se ha configurado el entorno de ejecución por defecto en Google Colab (16 GB RAM).
+- Se han cargado los datos desde Google Drive para facilitar el acceso.
+- Se han ejecutado los algoritmos de K-Means y Random Forest con los datos preprocesados.
+- Para Random Forest (0.98 en training, 0.92 en test).
+* Vigilar la incongruencia de versiones en scikit-learn para VSCode (1.1) y Google Colab (1.6).
+
+- Revisión mapa QGIS y SQL en QGIS.
+
+28/03/2025
+- Tratamiento de Outliers.
+- Feature Engineering, Reducción de dimensionalidad, Feature Selection, Instance Selection. Eliminar duplicados.
+- Próximos pasos: optimización de hiperparámetros y análisis de resultados.
+
+- Aplicaciones Big Data: Spark, HDFS para escalar el procesamiento de datos.
+- Repaso Cassandra.
+- Almacenamiento de ficheros .parquet en BBDD Cassandra, HBase o similares.
+
