@@ -68,3 +68,28 @@ Dadas las dimensiones de los datos y los algoritmos aplicados, los recursos loca
 - Repaso Cassandra.
 - Almacenamiento de ficheros .parquet en BBDD Cassandra, HBase o similares.
 
+01/04/2025:
+- Variable 'driver_pay' aprobada como variable objetivo.
+- Clustering K-Prototypes realizado para 10K muestras y 500K muestras. Diferencias mínimas. Comprobar la calidad de agrupamiento para 12M de muestras.
+    Para este algoritmo, no se tratan ni las variables numéricas ni las categóricas.
+- Criterios de data cleaning: precios y tiempos menores que cero.
+- Criterio de eliminación de outliers: IQR +/- 1.5
+
+Distribución de datos y notebooks:
+- En local (conectado a Github):
+    - prueba_2024.ipynb: convierto .parquet en .csv y extrae N registros aleatorios.
+    - prueba_2021.ipynb: EDA antes de tratamiento de datos. Incluye preprocesamiento de datos (data reduction).
+    - cluster_analysis_2021-05.ipynb: EDA sobre el clustering realizado con K-Prototypes. Validación sobre 12.2 millones de registros.
+        Maneja los ficheros 'dataframe_fhvhv_2021-05_with_cluster_labels.csv' y 'clusters_kprototypes_simplified.csv' de Google Colab.
+
+- En Google Colab:
+    - 'fhvhv_tripdata_2021-05_cleaned_IQR.csv': fichero tras limpieza de outliers y preprocesamiento de datos.
+    - prueba_2021_colab.ipynb: igual que en local pero con el 100\% de las muestras. Sirve para ver bien la matriz de correlaciones.
+    - TFM_FHV_NYC_clustering.ipynb: notebook de clustering con K-Prototypes. Incluye gráfica del método del codo y silhouette.
+            Guarda un dataframe con los labels de los clusters en: 'dataframe_fhvhv_2021-05_with_cluster_labels.csv'
+            Guarda otro dataframe con los centroides de los clusters: 'clusters_kprototypes_simplified.csv'
+
+- En Kaggle:
+    - FHV_Model_NYC.ipynb: preprocesamiento de datos: tratamiento de datetime variables, missing values, outliers y duplicados.
+    - TFM_FHV_NYC_clustering.ipynb: notebook de clustering con K-Prototypes. Incluye gráfica del método del codo y silhouette.
+            Guarda un dataframe con los datos tratados: 'fhvhv_tripdata_2021-05_cleaned_IQR.csv'
