@@ -93,3 +93,12 @@ Distribución de datos y notebooks:
     - FHV_Model_NYC.ipynb: preprocesamiento de datos: tratamiento de datetime variables, missing values, outliers y duplicados.
     - TFM_FHV_NYC_clustering.ipynb: notebook de clustering con K-Prototypes. Incluye gráfica del método del codo y silhouette.
             Guarda un dataframe con los datos tratados: 'fhvhv_tripdata_2021-05_cleaned_IQR.csv'
+
+02/04/2025:
+- Completar análisis clusters para mayo de 2021.
+- Validación cluster mayo 2021 con todas las muestras.
+- Validación cluster mayo 2024 con todas las muestras.
+- Validación cluster resto de meses 2024 con 10K muestras por mes.
+- Estudio clusters alternativos para julio, agosto y diciembre de 2024.
+
+Criterios de validación: wss, silhouette, Davies-Bouldin, Dunn, Calinski-Harabasz. Porcentaje de varianza explicada. Porcentaje de elementos en cluster.
