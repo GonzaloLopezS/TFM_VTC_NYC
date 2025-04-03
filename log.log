@@ -97,8 +97,34 @@ Distribución de datos y notebooks:
 02/04/2025:
 - Completar análisis clusters para mayo de 2021.
 - Validación cluster mayo 2021 con todas las muestras.
+
+Resultados:
+    Para 10K:
+    - 3 clusters: (0: 32%, 1: 61%, 2: 7%)
+    - wss, varianza: Distancia media al centroide: 111892.91
+       cluster_labels  distancia_media_al_centroide
+0               0                 101214.800261
+1               1                  58026.937114
+2               2                 642764.042937
+
+
+    Para 1M:
+    - 3 clusters: (0: 31%, 1: 64%, 2: 5%)
+    - wss, varianza: Distancia media al centroide: 94651.51
+   cluster_label  distancia_media_al_centroide
+0              0                  97683.098653
+1              1                  56474.539267
+2              2                 559126.697821
+
+
+    Para 14M (revisar porque incluye outliers:
+    - 3 clusters: (0: 31%, 1: 62%, 2: 7%)
+    - wss, varianza, silhouette:
+
+
+03/04/2025:
+
 - Validación cluster mayo 2024 con todas las muestras.
 - Validación cluster resto de meses 2024 con 10K muestras por mes.
 - Estudio clusters alternativos para julio, agosto y diciembre de 2024.
-
-Criterios de validación: wss, silhouette, Davies-Bouldin, Dunn, Calinski-Harabasz. Porcentaje de varianza explicada. Porcentaje de elementos en cluster.
+- Repasar test estadísticos
